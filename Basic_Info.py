@@ -3,3 +3,5 @@ a = 5
 #python identation is very important to differentiate between different parts of the program
 #how to input a string 
 s = input("Enter a string = ")
+#to check the data type of a variable
+print(type(s))
