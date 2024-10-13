@@ -11,7 +11,7 @@ Sample output:
 Output description:Output a single line with ocunt of even numbers and odd numbers from N, separated by a single space. 
 """
 n = int(input())
-l = [int(i) for i in input().split]
+l = [int(i) for i in input().split()]
 e,o = 0,0
 for i in l:
    if(i%2==0):
